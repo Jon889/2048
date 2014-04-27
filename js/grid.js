@@ -47,7 +47,7 @@ Grid.prototype.randomCell = function () {
   if (cells.length) {
     return this.cells[Math.floor(Math.random() * cells.length)];
   }
-}
+};
 
 Grid.prototype.availableCells = function () {
   var cells = [];
