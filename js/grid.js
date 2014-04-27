@@ -44,7 +44,7 @@ Grid.prototype.randomAvailableCell = function () {
 
 //Find a random cell that may or may not be empty
 Grid.prototype.randomCell = function () {
-  if (cells.length) {
+  if (this.cells.length) {
     return this.cells[Math.floor(Math.random() * cells.length)];
   }
 };
